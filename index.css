@@ -1,0 +1,159 @@
+
+/* TAGS */
+/* body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background: linear-gradient(#09637E,#088395,#7AB2B2,#EBF4F6 );
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+h1,  h2{
+   color: #EBF4F6;
+   text-shadow:2px 2px #000000;
+}
+button{
+    color: #EBF4F6;
+    text-shadow:2px 2px #000000;
+    font-size: 17px;
+    padding:17px 0px 17px 0px;
+}
+/* IDS */
+/*
+#increment-btn {
+    background: #7AB2B2;
+}
+#save-btn {
+    background:#09637E;
+}
+#reset-btn{
+    background-color:#088395 ;
+}
+/* CLASSES*/
+/*
+.countbox{
+    background-image:url("images/numberpic.jpg");
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px;
+*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    background:
+    linear-gradient(#09637E,#088395,#7AB2B2,#EBF4F6 ),
+        url("station.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: clamp(2.5rem, 8vw, 3.5rem);
+}
+
+h1, h2 {
+    color: #EBF4F6;
+    text-shadow: 2px 2px #000;
+}
+
+button {
+    border: none;
+    padding: 17px 0;
+    width: min(90%, 280px);
+    margin-bottom: 8px;
+    border-radius: 5px;
+
+    color: #EBF4F6;
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 2px 2px #000;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #7AB2B2;
+}
+
+#save-btn {
+    background: #09637E;
+}
+
+#reset-btn {
+    background: #088395;
+}
+
+.countbox {
+    background-image: url("images/numberpic.jpg");
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: clamp(15px, 4vw, 30px);
+
+    /* blend into background (no box edges) */
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 65%,
+        transparent 100%
+    );
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 65%,
+        transparent 100%
+    );
+}
+
+
+
+/* 📱 Mobile adjustments */
+@media (max-width: 480px) {
+    h1, h2 {
+        text-shadow: 1px 1px #000;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 14px 0;
+    }
+}
+
+
+
